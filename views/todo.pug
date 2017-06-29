@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+    title= 'TOCO APP'
+    script(type='text/javascript').
+      if (foo) bar(1 + 5)
+  body
+    h1 todo app
+
+    form(method='POST', action='/api/todo/submit')
+        input(name='task')
+        button Add Task
